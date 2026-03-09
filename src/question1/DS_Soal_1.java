@@ -20,12 +20,14 @@ public class DS_Soal_1 {
             if (sekarang == ')' || sekarang == '}' || sekarang == ']') {
                 if (kurung.isEmpty()) {
                     System.out.println("Tidak Seimbang");
+                    scanner.close();
                     return;
                 }
                 char atas = kurung.pop();
                 
                 if ((sekarang == ')' && atas != '(') || (sekarang == '}' && atas != '{') ||(sekarang == ']' && atas != '[')) {
                     System.out.println("Tidak Seimbang");
+                    scanner.close();
                     return;
                 }
             }
