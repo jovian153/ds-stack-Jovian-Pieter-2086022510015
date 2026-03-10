@@ -42,4 +42,4 @@
 
 
 Assignment Report
-[PDF Laporan Tugas Stack](/report/Stack_Assignment_Report_Jovian_Pieter_2086022510015.pdf)
+[Assignment Report](/Report/Stack_Assignment_Report_Jovian_Pieter_2086022510015.pdf)
